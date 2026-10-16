@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw ;
+    grid-template-rows: 65px 168px 300px 36px 33px auto;
+}
+
+
+#pages{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: black;
+    font-size: 25px;
+    padding:20px;
+}
+.muis{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    color:white;
+    padding:20px;
+}
+
+.muis:hover {
+    background-color: gray;
+} 
+
+.text{
+    grid-column: 1 / 5;
+    grid-row: 2 / 7;
+    background-image: url("img/achtergrond_bladmuziek.png") ;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.kop{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    font-size:30px;
+    text-align: center;
+    background-color: aqua;
+    position: sticky;
+    padding: 69px;
+    left: 25%;
+    width: 50%;
+}
+
+.info{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    font-size: 18px;
+    text-align: center;
+    background-image: url("img/achtergrond_text.avif");
+    position: sticky;
+    padding: 30px;
+    left: 25%;
+    width: 50%;
+}
+img {
+    width:50%;
+    text-align: center;
+    position: sticky;
+    left: 25%;
+    width: 50%;
+}
+
+.link {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    font-size: 13px;
+    text-align: center;
+    background-color: aqua;
+    position: sticky;
+    padding: 10px;
+    left: 25%;
+    width: 50%;
+}
+
+.central{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: aqua;
+    position: sticky;
+    padding: 10px;
+    left: 25%;
+    width: 50%;
+}
+
+
+
